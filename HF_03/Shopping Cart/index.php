@@ -1,8 +1,6 @@
 <?php
 
-require_once "Product.php";
-require_once "Cart.php";
-require_once "CartItem.php";
+include "loader.php";
 
 $product1 = new Product(1, "iPhone 11", 2500, 10);
 $product2 = new Product(2, "M2 SSD", 400, 10);
